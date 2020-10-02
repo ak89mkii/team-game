@@ -6,7 +6,7 @@ import { Grid, Divider, Header, Image, Segment } from 'semantic-ui-react'
 import NavBar from './components/NavBar/NavBar'
 import QuizPage from './pages/QuizPage/QuizPage'
 import Login from './pages/QuizPage/QuizPage'
-import logo from './images/01.png'
+import logo from './images/Robot2.png'
 
 const qNo = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
 
@@ -57,32 +57,24 @@ class App extends Component {
       activeItem = {activeItem}
       />
       <div className='App'>
-      <Segment inverted color='blue'>
-        <Header as='h1' floated='left'>
-          Quiz Page
-        </Header>
-
-        <Divider clearing />
-        <Grid columns={2} centered>
+      <br></br>
+      <Segment inverted color='violet'>
+      <h1>KidBot: The Lesson Plan Activity Platform</h1>
+      </Segment>
         
-          <Grid.Column>
-          
-            <Image centered
+        <div> 
+          <Image centered
               height='400' 
               src={logo} 
               color='blue'
-              />
-            <Header className= 'title' as='h1'>
-              KidBot: The Student Quiz App
-            </Header>
-          </Grid.Column> 
-          
-        </Grid>
-      </Segment>
+          />
+        </div>
+        <Segment color='white'>
+        <h1>Quiz Page</h1>
+        </Segment>
       </div>
-      <br></br>
-          
       <main>
+      <br></br>
         
 
         <QuizPage 

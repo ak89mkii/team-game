@@ -2,9 +2,6 @@
 
 ## A flashcard style quizzing platform.
 
-## Website Link: 
-**Link here: https://paj-03-project-hi-nu.herokuapp.com/**
-
 ## Technology Used:
 - Html
 - Css

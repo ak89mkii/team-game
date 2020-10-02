@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Grid, Message } from 'semantic-ui-react'
+import { Image, Grid, Message } from 'semantic-ui-react'
 
 
 
@@ -20,7 +20,11 @@ const Answer = (props) => {
                             <p>
                             {props.answerArray[idx]}
                             </p>
-                    </Message>  : <Button color='yellow'>{idx}</Button>} 
+                    </Message>  : <Image centered
+                    height='50' 
+                    src='https://thumbs.gfycat.com/WeightyImaginativeCow-max-1mb.gif'
+                    color='blue'
+                    />} 
                    
                 </Grid.Column>
                 </Grid>
